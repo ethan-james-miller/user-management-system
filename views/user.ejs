@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Details</title>
+  </head>
+  <body>
+    <h1>User Details</h1>
+    <% if (user) { %>
+    <p>Username: <%= user.username %></p>
+    <p>Email: <%= user.email %></p>
+    <% } else { %>
+    <p>User not found</p>
+    <% } %>
+    <a href="/">Back to Users List</a>
+
+    <% if (typeof query.message !== 'undefined') { %>
+    <h2>Message:</h2>
+    <p><%- query.message %></p>
+    <% } %>
+  </body>
+</html>
