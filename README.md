@@ -94,13 +94,3 @@ We welcome contributions to the User Management System. If you'd like to contrib
 ## License
 
 This project is distributed under the MIT License. See the `LICENSE` file for more information.
-
-## Contact
-
-Project Manager - project-manager@example.com
-
-Project Link: https://github.com/your-company/user-management-system
-
----
-
-© 2023 Your Company Name. All Rights Reserved.
