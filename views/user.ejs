@@ -15,9 +15,9 @@
     <% } %>
     <a href="/">Back to Users List</a>
 
-    <% if (typeof query.message !== 'undefined') { %>
+    <% if (typeof message !== 'undefined') { %>
     <h2>Message:</h2>
-    <p><%- query.message %></p>
+    <p><%= message %></p>
     <% } %>
   </body>
 </html>
